@@ -18,6 +18,54 @@ body {
 }
 
 /* @todo Nav */
+.nav {
+  position: fixed;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+}
 
 .hero {
   background-image: url('https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/13613340_1029746503813669_1481320947416962427_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=8nR65Lr0QFMAX9NEdfj&_nc_ht=scontent-ort2-2.xx&oh=e32f433516cc8fdff70717ec572d21b6&oe=60B0FEFA');
