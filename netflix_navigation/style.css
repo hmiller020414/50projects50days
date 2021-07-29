@@ -56,7 +56,7 @@ body {
     width: 60%;
     max-width: 480px;
     min-width: 320px;
-    transition-delay: 0.4s
+    transition-delay: 0.4s;
 }
 
 .nav-black.visible {
